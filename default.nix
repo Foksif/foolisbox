@@ -7,6 +7,13 @@ stdenv.mkDerivation {
 
   hardeningDisable = [ "stackprotector" ];
 
+  nativeBuildInputs = [ 
+      cmake 
+      nasm
+      make
+      clang
+    ];
+
   buildPhase = ''
     cmake .
     make
