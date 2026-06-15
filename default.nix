@@ -1,4 +1,4 @@
-{ stdenv, clang, cmake, make, nasm }:
+{ stdenv, clang, cmake, gnumake, nasm }:
 stdenv.mkDerivation {
   pname = "foolisbox";
   version = "1.0";
@@ -10,7 +10,7 @@ stdenv.mkDerivation {
   nativeBuildInputs = [ 
       cmake 
       nasm
-      make
+      gnumake
       clang
     ];
 
