@@ -1,3 +1,0 @@
-/home/foksik/Projects/coreUtils/CMakeFiles/foolisbox.dir
-/home/foksik/Projects/coreUtils/CMakeFiles/edit_cache.dir
-/home/foksik/Projects/coreUtils/CMakeFiles/rebuild_cache.dir
