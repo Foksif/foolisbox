@@ -12,4 +12,4 @@ file(GLOB_RECURSE SOURCES
 )
 add_executable(foolisbox ${SOURCES})
 
-set_target_properties(coreutils PROPERTIES LINK_FLAGS "-nostdlib -e _start")
+set_target_properties(foolisbox PROPERTIES LINK_FLAGS "-nostdlib -e _start")
