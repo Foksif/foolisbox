@@ -9,5 +9,6 @@ typedef struct {
 int cat_main(int argc, char **argv);
 int echo_main(int argc, char **argv);
 int cp_main(int argc, char **argv);
+int mkdir_main(int argc, char **argv);
 
 #endif

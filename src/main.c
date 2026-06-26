@@ -20,8 +20,11 @@ static const char *get_basename(const char *path) {
   return base;
 }
 
-static const UtilityModule registry[] = {
-    {"cat", cat_main}, {"echo", echo_main}, {"cp", cp_main}, {0, 0}};
+static const UtilityModule registry[] = {{"cat", cat_main},
+                                         {"echo", echo_main},
+                                         {"cp", cp_main},
+                                         {"mkdir", mkdir_main},
+                                         {0, 0}};
 
 int core_main(int argc, char **argv) {
   if (argc < 1)
